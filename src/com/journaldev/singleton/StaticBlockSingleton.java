@@ -6,6 +6,7 @@ public class StaticBlockSingleton {
     private StaticBlockSingleton() {
     }
 
+    //static block initialization for exception handling
     static {
         try {
             instance = new StaticBlockSingleton();
